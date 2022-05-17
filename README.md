@@ -1,1 +1,1 @@
-# Labirinto-Eur-stica
+# Labirinto-Euristica
