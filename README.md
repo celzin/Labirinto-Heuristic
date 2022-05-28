@@ -16,8 +16,10 @@
 ## Abstract
 
 ## Estrutura BFS Search
+BFS significa Breadth First Search. É uma técnica baseada em vértices para encontrar o caminho mais curto no gráfico. Ele usa uma estrutura de dados Fila que segue primeiro a entrar, primeiro a sair. No BFS, um vértice é selecionado no momento em que é visitado e marcado, então seus adjacentes são visitados e armazenados na fila. É mais lento que o DFS. 
 
 ## Estrutura DFS Search
+DFS significa Depth First Search. É uma técnica baseada em borda. Ele usa a estrutura de dados Pilha, executa dois estágios, primeiro os vértices visitados são colocados na pilha e, em segundo lugar, se não houver vértices, os vértices visitados são removidos. 
 
 ## Algoritmo A*
 
