@@ -44,7 +44,7 @@ Distância = |posição_atual.x - destino.x| + |posição_atual.y - destino.y|
 
 ## Método PrintMaze
 <p align="justify">
-Nesse método...
+Nesse método imprime a primeira pesquisa por DFS.
 </p>
 
 ```c
@@ -61,7 +61,7 @@ void PrintMaze(int** sol, int N){
 
 ## Método CheckPath
 <p align="justify">
-Nesse método...
+Nesse método verifica se o labirinto está com caminho livre ou não ou se há final.
 </p>
 
 ```c
@@ -76,7 +76,7 @@ bool CheckPath(int** maze, int N, int x, int y){
 
 ## Método solveMaze
 <p align="justify">
-Nesse método...
+Nesse método verifica se uma solução existe ou não e se é uma solução. Define o caminho da solução e imprime o labirinto desejado com o caminho necessário.
 </p>
 
 ```c
@@ -103,7 +103,7 @@ bool solveMaze(int** maze, int N){
 
 ## Método SolutionPath
 <p align="justify">
-Nesse método...
+Nesse método resolve o problema do labirinto usando os métodos CheckPath e Solution.
 </p>
 
 ```c
