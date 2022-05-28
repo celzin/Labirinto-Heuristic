@@ -138,6 +138,13 @@ bool SolutionPath(int** maze, int N, int a, int y, int** sol){
     <img align="center" src="imgs/example_insert_0.png"/> 
   </p>
   
+  
+  Todos os caminhos e paredes inseridos neste exemplo:
+  </p>
+    <p align="center">
+    <img align="center" src="imgs/all_inserts.png"/> 
+  </p>
+  
   Após inserido o labirinto conforme o usuário desejar, é impresso o labirinto digitado.
   </p>
     <p align="center">
