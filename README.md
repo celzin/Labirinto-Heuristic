@@ -15,6 +15,12 @@
 
 ## Abstract
 
+Programa sobre o caminhamento em labirinto. Deve contemplar as modificações necessárias do BFS para torna-lo um algoritmo heurístico, chamado A*.
+
+A. Entregar a codificação devidamente elaborada sob o modelo de execução estabelecido, bem como, a comparação do algoritmo A* para as heurísticas euclidiâna e manhattan;
+
+B. Um relatório contemplando uma discussão comparativa entre BFS, DFS e A*. Espera-se que este documento apresente fatores comparativos de velocidade de execução e quantidade de passos para a finalização do labirinto. Além disso, espera-se que aprofunde em uma apresentação adequada do modelo de funcionamento de cada um e os motivos que tornam uma das soluções a melhor opção.
+
 ## Estrutura BFS Search
 BFS significa Breadth First Search. É uma técnica baseada em vértices para encontrar o caminho mais curto no gráfico. Ele usa uma estrutura de dados Fila que segue primeiro a entrar, primeiro a sair. No BFS, um vértice é selecionado no momento em que é visitado e marcado, então seus adjacentes são visitados e armazenados na fila. É mais lento que o DFS. 
 
