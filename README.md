@@ -15,12 +15,32 @@
 
 ## Abstract
 
-
 ## Estrutura BFS Search
 
 ## Estrutura DFS Search
 
-## A* (Eurística)
+## Algoritmo A*
+
+O algoritmo A* é um dos mais utilizados em situações de pathfinding, ou busca de caminhos.
+
+Ele utiliza uma estrutura de dados chamada Fila para organizar os vértices que serão explorados;
+
+Além de salvar os caminhos já calculados, ele também utiliza heurísticas para estimar em cada ponto quanto ainda falta para o final, buscando direcionar a escolha do próximo vértice.
+
+A ideia do algoritmo é tentar acertar o menor caminho o mais rápido possível! Por isso ele olha tanto para o passado (o quanto ele já percorreu) como para o futuro (o quanto ainda falta) na hora de estimar se um caminho é bom ou não. Não quer dizer que ele acerta de primeira, mas ele converge para o menor caminho muito mais rápida e precisamente do que as buscas por DFS e BFS conseguem fazer. De certa forma, esse algoritmo é uma combinação desses tipos de busca utilizando o que há de melhor em cada um dos métodos.
+Por convergir mais rápido, o algoritmo A* acaba explorando menos vértices para achar a solução, e consequentemente possui uma performance melhor. Se você não usar nenhuma heurística para mensurar o caminho para a frente do vértice atual, estará olhando apenas o caminho já percorrido.
+
+## Heurística Euclidiâna
+
+Utiliza-se o teorema de Pitágoras para descobrir qual seria a distância em linha reta do ponto do labirinto até o ponto de destino. Essa heurística é mais utilizada quando se tem um mapa contínuo, que não segue o padrão do grid, e onde os custos de movimentação podem ser mais variados:
+
+Distância = RAIZ_QUADRADA (|posição_atual.x - destino.x|² + |posição atual.y - destino.y|²)
+
+## Heurísticas Manhattan
+
+O movimento só pode ser realizado nas quatro direções. Na distância de Manhattan, o cálculo do valor da heurística seria a soma de quantos blocos faltam, na vertical e na horizontal, para chegar ao objetivo. Logo a distância de cada bloco para o objetivo seria dada por:
+
+Distância = |posição_atual.x - destino.x| + |posição_atual.y - destino.y|
 
 ## Método PrintMaze
 <p align="justify">
