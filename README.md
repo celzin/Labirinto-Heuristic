@@ -117,37 +117,37 @@ bool SolutionPath(int** maze, int N, int a, int y, int** sol){
 	Inicialmente o usuário insere o tamanho do labirinto, sendo este no formato NxN.
   </p>
     <p align="center">
-    <img align="center" src="imgs/matriz.png"/> 
+    <img align="center" src="imgs/tam_maze.png"/> 
   </p>
   
-  Em seguida o usuário ''entra'' no labirinto, e é aí onde irá inserir as paredes e os possíveis caminhos para percorrer. 
+  Em seguida o usuário ''entra'' no labirinto, e é aí onde insere as paredes e os possíveis caminhos para percorrer. 
   </p>
     <p align="center">
-    <img align="center" src="imgs/matriz.png"/> 
+    <img align="center" src="imgs/inside_maze.png"/> 
   </p>
   
   Ao digitar o número '1', o programa lê como um caminho possível a ser percorrido.
   </p>
     <p align="center">
-    <img align="center" src="imgs/matriz.png"/> 
+    <img align="center" src="imgs/example_insert_1.png"/> 
   </p>
   
   Caso seja digitado o número '0', o programa entende que têm uma parede nesse local.
   </p>
     <p align="center">
-    <img align="center" src="imgs/matriz.png"/> 
+    <img align="center" src="imgs/example_insert_0.png"/> 
   </p>
   
   Após inserido o labirinto conforme o usuário desejar, é impresso o labirinto digitado.
   </p>
     <p align="center">
-    <img align="center" src="imgs/matriz.png"/> 
+    <img align="center" src="imgs/maze_initialized.png"/> 
   </p>
   
   Por fim, é impresso o caminho percorrido pelo programa.
   </p>
     <p align="center">
-    <img align="center" src="imgs/matriz.png"/> 
+    <img align="center" src="imgs/maze_solution.png"/> 
   </p>
   
 ## Compilação e Execução
