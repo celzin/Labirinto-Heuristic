@@ -34,11 +34,15 @@ DFS significa Depth First Search. É uma técnica baseada em borda. Ele usa a es
 ## Algoritmo A*
 <p align="justify">
 O algoritmo A* é um dos mais utilizados em situações de pathfinding, ou busca de caminhos.
+</p>
 
 Ele utiliza uma estrutura de dados chamada Fila para organizar os vértices que serão explorados;
 
+<p align="justify">
 Além de salvar os caminhos já calculados, ele também utiliza heurísticas para estimar em cada ponto quanto ainda falta para o final, buscando direcionar a escolha do próximo vértice.
+</p>
 
+<p align="justify">
 A ideia do algoritmo é tentar acertar o menor caminho o mais rápido possível! Por isso ele olha tanto para o passado (o quanto ele já percorreu) como para o futuro (o quanto ainda falta) na hora de estimar se um caminho é bom ou não. Não quer dizer que ele acerta de primeira, mas ele converge para o menor caminho muito mais rápida e precisamente do que as buscas por DFS e BFS conseguem fazer. De certa forma, esse algoritmo é uma combinação desses tipos de busca utilizando o que há de melhor em cada um dos métodos.
 Por convergir mais rápido, o algoritmo A* acaba explorando menos vértices para achar a solução, e consequentemente possui uma performance melhor. Se você não usar nenhuma heurística para mensurar o caminho para a frente do vértice atual, estará olhando apenas o caminho já percorrido.
 </p>
