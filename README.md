@@ -14,7 +14,7 @@
 - Pedro H. Pires Dias
 
 ## Abstract
-
+<p align="justify">
 Programa sobre o caminhamento em labirinto. Deve contemplar as modificações necessárias do BFS para torna-lo um algoritmo heurístico, chamado A*.
 
 A. Entregar a codificação devidamente elaborada sob o modelo de execução estabelecido, bem como, a comparação do algoritmo A* para as heurísticas euclidiâna e manhattan;
@@ -22,10 +22,14 @@ A. Entregar a codificação devidamente elaborada sob o modelo de execução est
 B. Um relatório contemplando uma discussão comparativa entre BFS, DFS e A*. Espera-se que este documento apresente fatores comparativos de velocidade de execução e quantidade de passos para a finalização do labirinto. Além disso, espera-se que aprofunde em uma apresentação adequada do modelo de funcionamento de cada um e os motivos que tornam uma das soluções a melhor opção.
 
 ## Estrutura BFS Search
+<p align="justify">
 BFS significa Breadth First Search. É uma técnica baseada em vértices para encontrar o caminho mais curto no gráfico. Ele usa uma estrutura de dados Fila que segue primeiro a entrar, primeiro a sair. No BFS, um vértice é selecionado no momento em que é visitado e marcado, então seus adjacentes são visitados e armazenados na fila. É mais lento que o DFS. 
+</p>
 
 ## Estrutura DFS Search
+<p align="justify">
 DFS significa Depth First Search. É uma técnica baseada em borda. Ele usa a estrutura de dados Pilha, executa dois estágios, primeiro os vértices visitados são colocados na pilha e, em segundo lugar, se não houver vértices, os vértices visitados são removidos. 
+</p>
 
 ## Algoritmo A*
 <p align="justify">
