@@ -53,14 +53,18 @@ Por convergir mais rápido, o algoritmo A* acaba explorando menos vértices para
 ## Heurística Euclidiâna
 <p align="justify">
 Utiliza-se o teorema de Pitágoras para descobrir qual seria a distância em linha reta do ponto do labirinto até o ponto de destino. Essa heurística é mais utilizada quando se tem um mapa contínuo, que não segue o padrão do grid, e onde os custos de movimentação podem ser mais variados:
+</p>
 
+<p align="center">
 Distância = RAIZ_QUADRADA (|posição_atual.x - destino.x|² + |posição atual.y - destino.y|²)
 </p>
 
 ## Heurísticas Manhattan
 <p align="justify">
 O movimento só pode ser realizado nas quatro direções. Na distância de Manhattan, o cálculo do valor da heurística seria a soma de quantos blocos faltam, na vertical e na horizontal, para chegar ao objetivo. Logo a distância de cada bloco para o objetivo seria dada por:
+</p>
 
+<p align="center">
 Distância = |posição_atual.x - destino.x| + |posição_atual.y - destino.y|
 </p>
 
@@ -148,10 +152,6 @@ bool SolutionPath(int** maze, int N, int a, int y, int** sol){
     return false;
 }         
 ```
-
-
-
-
 
 ## Funcionamento do programa
 
